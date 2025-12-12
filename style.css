@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background-color: red;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: purple;
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* 🔥 NEW: Put heading + form side by side */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px;
+    gap: 20px;
+}
+
+
+.main-form {
+    width: 450px;          
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0;           
+}
+
+.main-form input {
+    padding: 15px;        
+    font-size: 18px;
+}
+
+.main-form button {
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
