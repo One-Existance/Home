@@ -40,7 +40,6 @@
     margin-top: 40px;
 }
 
-/* 🔥 NEW: Put heading + form side by side */
 .content {
     display: flex;
     justify-content: space-between;
